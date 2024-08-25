@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300');
+body{
+    background-color: black;
+    
+}
+.container{
+    
+}
+.detail{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:#0ec9c9;
+    font-weight: 400;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px gray;
+    padding: 15px;
+    animation:animate ease-in-out 1s forwards;
+    margin-top: 100px;
+}
+
+
+
+.details{
+    /* box-shadow: 0px 0px 20px lightgray; */
+    width: 50%;
+    /* border-radius: 15px; */
+    transition-duration: 2s;
+    animation: leftaimation  ease-in-out 1s forwards;
+}
+
+.desc{
+    color: white;
+    font-weight: 5;
+}
+@media(max-width:970px){
+    .details{
+        width: 100%;
+    }
+}
+.shyam{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* .avtar img{
+    height: 100px;
+    width: 100px;
+} */
+@media(max-width:450px) {
+    .shyam .avtar{
+        width: 200px;
+        height: 200px;
+    }
+}
+.shyam .avtar{
+    animation: rightanimation ease-in-out 1s forwards;
+}
+
+.buttons{
+    color: #0ec9c9;
+    text-decoration: none;
+}
+.buttons:hover{
+    border:1px solid white;
+    font-weight: 700;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    color: #0ec9c9;
+    margin: 10px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons a{
+    margin: 5px;
+}
+.fa-linkedin{
+    color: rgb(10, 102, 194);
+}
+.fa-twitter{
+    color: rgb(29, 161, 242);
+}
+.fa-github{
+    color: green;
+}
+.fa-envelope{
+    color: white
+}
+
+.avtar{
+    width: 360px;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 10px #0ec9c9);
+}
+.avtar img{
+    height: 360px;
+    width: 360px;
+}
+@media(max-width:1000px){
+    .avtar{
+        width: 280px;
+        height: 280px;
+    }
+    .avtar img{
+        width: 280px;
+        height: 280px;
+    }
+}
+@media(max-width:500px){
+    .avtar{
+        width: 200px;
+        height: 200px;
+    }
+    .avtar img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@keyframes animate {
+    from{
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+@keyframes leftaimation {
+    from{
+        opacity: 0;
+        transform: translateX(-10rem);
+        transition: ease;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0rem);
+
+    }
+}
+@keyframes rightanimation {
+    from{
+        opacity: 0;
+        transform: translateX(8rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0rem);
+
+    }
+}

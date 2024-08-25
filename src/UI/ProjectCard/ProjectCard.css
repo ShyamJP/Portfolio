@@ -1,0 +1,38 @@
+.project-card{
+    border: 1px solid #0ec9c9;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.project-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.card-desc{
+    text-align: center;
+}
+.card-desc p{
+    color: white;
+}
+.card-btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#Tech-stack>ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+#Tech-stack>ul>li{
+    border: 1px solid white;
+    padding: 4px;
+    font-size: small;
+    border-radius: 7px;
+    margin-right: 8px;
+}

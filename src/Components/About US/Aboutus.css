@@ -1,0 +1,97 @@
+.container{
+    margin-top: 50px;
+    /* animation: animate ease-in-out 1s forwards; */
+}
+@keyframes animate {
+    from{
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+.about ul li{
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.main-about{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:#0ec9c9;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px gray;
+    padding: 15px;
+    margin-bottom: 50px;
+    animation: animate ease 1s forwards ;
+    margin-top: 100px;
+}
+.shyam{
+    display: flex;
+    margin: auto;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    animation: leftaimation ease 1s forwards ;
+}
+.about{
+    width: auto;
+    animation: rightanimation ease 1s forwards ;
+}
+
+@media (max-width:700px) {
+    .shyam Avatar{
+        width:250;
+        height: 250;
+    }
+}
+.buttons{
+    color:#0ec9c9
+}
+.buttons:hover{
+    border:1px solid white;
+    font-weight: 700;
+    color: white;
+}
+/* .active{
+    color: white;
+    text-shadow: 0px 5px 20px white;
+} */
+@keyframes leftaimation {
+    from{
+        opacity: 0;
+        transform: translateX(-10rem);
+        transition: ease;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0rem);
+
+    }
+}
+@keyframes rightanimation {
+    from{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0rem);
+
+    }
+}
+@keyframes animate {
+    from{
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}

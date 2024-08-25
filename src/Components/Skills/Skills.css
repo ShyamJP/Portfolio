@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Josefin+Sans:wght@700');
+
+body{
+    color: white;
+}
+.main-div{
+    margin-top: 100px;
+}
+.front-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    animation: skils-Animate ease-in-out 1s forwards;
+}
+@media(max-width:500px){
+    .front-item{
+        flex-direction: column;
+    }
+}
+.front-item h1{
+    margin: 10px;
+    opacity: 1;
+}
+.front-item h1:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.btn{
+    color:#12c9c9;
+    border-color:#0ec9c9;
+}
+.btn:hover{
+    background-color: #008080;
+    color: white;
+}
+
+@keyframes skils-Animate {
+    from{
+        opacity: 0;
+        transform: translateX(-3rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+
