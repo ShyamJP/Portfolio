@@ -1,6 +1,5 @@
 import React from "react";
 import './Aboutus.css'
-import Avtar from "../Home/Avtar";
 import Newnavbar from "../Newnavbar/NavbarResp";
 
 const Aboutus = () => {
@@ -47,8 +46,4 @@ const Aboutus = () => {
         </>
     )
 }
-export default Aboutus
-
-{/* <div className="shyam" >
-<Avtar />
-</div> */}
+export default Aboutus;

@@ -2,8 +2,6 @@ import React from "react";
 import Tooltip from "@mui/material/Tooltip";
 
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
-import Aos from 'aos';
 
 const Cards = (props) =>{
     return(

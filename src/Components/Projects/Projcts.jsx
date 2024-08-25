@@ -1,10 +1,8 @@
 import React from "react";
 import './Project.css'
-import Card from "../../UI/Card/Card";
 import Newnavbar from "../Newnavbar/NavbarResp";
 import ProjectCard from "../../UI/ProjectCard/ProjectCard";
 const Projects = () => {
-  const tech = ["react", "Node"]
   return (
     <>
       {/* <Navbar /> */}

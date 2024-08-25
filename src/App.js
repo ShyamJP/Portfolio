@@ -9,10 +9,8 @@ import Aboutus from './Components/About US/Aboutus';
 import Contact from './Components/Contact Us/Contact';
 import Error from './Components/Error';
 import Resume from './Components/Home/Resume'
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import Aos from 'aos';
 import { useLocation } from 'react-router-dom';
 
 function App() {

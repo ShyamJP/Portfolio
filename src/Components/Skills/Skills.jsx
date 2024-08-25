@@ -4,13 +4,12 @@ import Tooltip from "@mui/material/Tooltip";
 import './Skills.css'
 // import Tooltip from "@mui/material/Tooltip";
 // import Items from "./items";
-import Button from "./Buttons";
 import Data from "./DataNew";
-import Cards from "./Cards";
 import Newnavbar from "../Newnavbar/NavbarResp";
 
 
 const Skills = () => {
+    // eslint-disable-next-line no-unused-vars
     const [item,setitem] = useState(initial);
     function initial(){
         const sortedItem = Data.filter((item) =>
@@ -20,6 +19,7 @@ const Skills = () => {
         return sortedItem
     }
     
+    // eslint-disable-next-line no-unused-vars
     function filterFunction(t){
         const sortedItem = Data.filter((item) =>
         {
