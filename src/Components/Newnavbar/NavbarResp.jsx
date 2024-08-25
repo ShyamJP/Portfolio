@@ -28,38 +28,28 @@ const NavbarNew = () => {
         </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <a href="#">
               <NavLink to="/" className="underline">
                 Home
               </NavLink>
-            </a>
           </li>
           <li>
-            <a href="#">
               <NavLink to="/aboutus" className="underline">
                 About Me
               </NavLink>
-            </a>
           </li>
           <li>
-            <a href="#">
               <NavLink to="/skills" className="underline">
                 Skills
               </NavLink>
-            </a>
           </li><li>
-            <a href="#">
               <NavLink to="/projects" className="underline">
                 Projects
               </NavLink>
-            </a>
           </li>
           <li>
-            <a href="#">
               <NavLink to="/contact" className="underline">
                 Contact Me
               </NavLink>
-            </a>
           </li>
         </ul>
       </nav>
